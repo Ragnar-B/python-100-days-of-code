@@ -12,14 +12,10 @@ Print() function can be used to output the data.
 
 \n will generate a new line.
 
-print(user[0]) will printout the first character of the variable user.
-
 ### print-input.py
 ```python
 user = input("Who are you?\n")
 print("The user is: " + user)
-
-print(user[0])
 ```
 ---
 
