@@ -34,7 +34,7 @@ and     if total <= 10 and total >= 90 -> both values need to pass.
 or      if total <= 10 or total >= 90 -> either value much pass.
 not     if not total == 10 -> This a negative, so anything but 10 is passed.
 
-#Assignment Operators
+# Assignment Operators
 +=      same as -> x = x + 3
 -=      same as -> x = x - 3
 *=      same as -> x = x * 3
