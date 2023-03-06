@@ -26,20 +26,15 @@ running = True
 num1 = int(input("What's the first number? "))
 for operation in operations:
     print(operation)
-operation_symbol = input("Pick an operation from the line above: ")
-num2 = int(input("What's the second number? "))
+while running: 
+    operation_symbol = input("Pick an operation: ")
+    num2 = int(input("What's the second number? "))
 
-answer = operations[operation_symbol](num1, num2)
+    answer = operations[operation_symbol](num1, num2)
 
-print(f"{num1} {operation_symbol} {num2} = {answer}")
-
-while running:
+    print(f"{num1} {operation_symbol} {num2} = {answer}")
     continue_running = input(f"Type 'y' to continue calculating with {answer}, or type 'n' to exit.: ")
-    if continue_running == "n":
-        running = False
+    if continue_running == "y":
+        num1 = answer
     else:
-        last_num = answer
-        operation_symbol = input("Pick an operation: ")
-        next_num = int(input("What's the next number? "))
-        answer = operations[operation_symbol](last_num, next_num)
-        print(f"{last_num} {operation_symbol} {next_num} = {answer}")
+        running = False
