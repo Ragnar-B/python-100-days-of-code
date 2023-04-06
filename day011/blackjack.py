@@ -117,3 +117,8 @@ while game_running:
     user_cards.append(deal_card())
     if computer_score < 17:
       computer_cards.append(deal_card())
+  elif draw.lower() == "no":
+    if computer_score < 17:
+      computer_cards.append(deal_card())
+  else:
+    print("You have to type Yes or No.")
