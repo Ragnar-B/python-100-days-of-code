@@ -2,5 +2,7 @@
 
 ## Day 009
 
-### Dictonary
+Tags: #Python #Dictionary
+
+### Dictionary
 

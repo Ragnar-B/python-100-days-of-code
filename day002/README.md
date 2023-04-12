@@ -2,6 +2,8 @@
 
 ## Day 002
 
+Tags: #Python #Data-Types #Math-Operators
+
 ### Data Types
 
 ```python
