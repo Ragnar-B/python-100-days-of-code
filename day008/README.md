@@ -2,7 +2,5 @@
 
 ## Day 008
 
-Tags: #Python #Functions 
-
 ### Funtion Parameters
 

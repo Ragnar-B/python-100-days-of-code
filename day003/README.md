@@ -2,13 +2,11 @@
 
 ## Day 003
 
-Tags: #Python #Logical-Operators 
-
 ### Control flow and logical operators
 
 With a if or elif statement you can make choices in your code. You can use the else statement to run code if any of your choices aren't a match.
 
-[[day03_exercise01.py]]
+day03_exercise01.py
 ```python
 number = int(input("Which number do you want to check? "))
 

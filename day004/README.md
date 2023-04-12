@@ -2,8 +2,6 @@
 
 ## Day 004
 
-Tags: #Python #Lists #Nested-Lists #Functions 
-
 ### Lists
 
 ```python

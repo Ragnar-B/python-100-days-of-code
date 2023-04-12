@@ -2,6 +2,4 @@
 
 ## Day 010
 
-Tags: #Python #Functions 
-
 ### Functions with outputs
