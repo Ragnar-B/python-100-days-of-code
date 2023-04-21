@@ -10,9 +10,9 @@ input() is a function which can be used to have an user input data. Datatype of 
 
 Print() function can be used to output the data.
 
-\n will generate a new line.
+`\n` will generate a new line.
 
-### print-input.py
+### print-input.py 
 ```python
 user = input("Who are you?\n")
 print("The user is: " + user)

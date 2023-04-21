@@ -2,5 +2,5 @@
 
 ## Day 009
 
-### Dictonary
+### Dictionary
 
