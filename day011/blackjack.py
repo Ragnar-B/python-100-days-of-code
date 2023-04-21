@@ -82,15 +82,12 @@ while dealing_cards:
 
 def calculate_score(cards):
   score_calculated = sum(cards)
-  if score_calculated == 21 and len(cards == 2):
+  if score_calculated == 21 and len(cards) == 2:
     return 0
-  if score_calculated > 21:
-      for position in range(cards):
-        card = cards[position]
-        if card == 11:
-          # Check replace value in list
-          cards[position] = 1
-          score_calculated = sum(cards)
+  if score_calculated > 21 and 11 in cards:
+    cards.remove(11)
+    cards.append(1)
+    score_calculated = sum(cards)
   return score_calculated
 
 game_running = True
